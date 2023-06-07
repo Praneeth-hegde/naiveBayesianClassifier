@@ -1,4 +1,5 @@
 
+
 # Naive Bayes Classifier
 
 This repository contains a Python program that implements the Naive Bayes classifier algorithm for classification tasks. It provides a simple and efficient way to train and evaluate the classifier using a sample training dataset stored as a .CSV file.
@@ -21,7 +22,7 @@ git clone https://github.com/your-username/naive-bayes-classifier.git
 
 2. Install the required dependencies (if any).
 
-3. Prepare your training dataset in .CSV format.
+3. Prepare your training dataset in .CSV format. For example, you can use 'tennisdata.csv' included in the repository.
 
 4. Edit the `main.py` file to specify the file path of your training dataset.
 
@@ -35,7 +36,7 @@ The program will load the dataset, train the Naive Bayes classifier, and output 
 
 ## Sample Dataset
 
-A sample training dataset, `sample.csv`, is provided in the repository for testing and experimentation. It includes a set of attributes and corresponding class labels.
+A sample training dataset, `tennisdata.csv`, is provided in the repository for testing and experimentation. It includes a set of attributes related to playing tennis and corresponding class labels indicating whether to play or not based on weather conditions.
 
 
 ## Contributing
